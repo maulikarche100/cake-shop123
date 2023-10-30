@@ -1,0 +1,270 @@
+.xyz{
+    color:#e67300;
+    color:#9999ff;
+    color:#ffcc00;
+    color:#ffe6cc;
+    }
+    body{
+        background-color: #ffe6cc;
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    .navbar{
+        background-color: #e67300;
+        /* height: 100px; */
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .navbar-icon{
+        height: 70px;
+    }
+    .navbar-brand-name{
+        color: rgb(96, 34, 34);
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .navbar-menu{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 10px;
+        padding: 5px 20px;
+        background-color: rgb(65, 155, 173);
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 3px 3px grey;
+    }
+    .navbar-menu:hover{
+        background-color: white;
+        color: black;
+        padding: 7px 25px;
+        transition: 0.5s;
+    }
+    .navbar-menu-container{
+        margin-left: 200px;
+    }
+    .header-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .shop-img{
+        height: 300px;
+        margin: 30px;
+    }
+    .header-title{
+        font-size: 50px;
+        color: #e67300;
+    }
+    .header-description{
+        font-size: 30px;
+        color: black;
+    }
+    .header-explore-btn{
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #e67300;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 30px;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+    }
+    .our-features-heading{
+        font-size: 50px;
+        text-align: center;
+        color: #e67300;
+        margin-top: 50px;
+
+    }
+    .feature-card{
+        width: 300px;
+        padding: 10px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        position: relative;
+
+    }
+    .ico-feature{
+        font-size: 50px;
+        position: absolute;
+        top: -45px;
+        left: 120px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        color: #e67300;
+        width: 60px;
+        text-align: center;
+    }
+    .feature-title{
+        text-align: center;
+        color: #e67300;
+        font-size: 22px;
+    }
+    .feature-description{
+       text-align: center; 
+    }
+    .feature-container{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        flex-wrap: wrap;
+    }
+    .our-cakes-heading{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 50px;
+        color: #e67300;
+    }
+    .cake-card{
+        background-color: white;
+        width: 300px;
+        padding: 40px 20px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    }
+    .cake-card-img{
+        height: 150px;
+        display: block;
+        margin: 5px auto;
+        filter: drop-shadow(0px 0px 10px #ffcc00);
+    }
+    .cake-card-title{
+        text-align: center;
+        color: #e67300;
+        font-size: 25px;
+    }
+    .cake-card-price{
+        text-align: center;
+        color: #e67300;
+        font-size: 18px;
+    }
+    .order-btn{
+       background-color: #e67300;
+       color: white;
+       font-size: 18px;
+       font-weight: bold;
+       padding: 5px 50px;
+       border-radius: 30px;
+       border: none;
+       margin-top: 20px;
+       cursor: pointer;
+       display: block;
+       text-align: center; 
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .cakes-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .footer{
+        height:100%;
+        width: 100%;
+        background-color: #e67300;
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+        margin-bottom: 0;
+    }
+    .media-img{
+        height: 50px;
+        width: 50px;
+        margin: 30px;
+        cursor: pointer;
+    }
+    .follow-us{
+        font-size: 30px;
+        margin-left: 150px;
+    }
+
+    .About{
+        font-size: 20px;
+        line-height: 30px;
+        cursor: pointer;
+    }
+    .privacy-policy{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    @media only screen and (max-width:600px) {
+        .navbar-menu-container{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .navbar{
+            flex-direction: column;
+        }
+        .navbar-menu{
+            display: block;
+            margin: 10px;
+            width: 100%;
+            text-align: center;
+        }
+        .shop-img{
+        height: 200px;
+        margin: 30px;
+        }
+        .header-title{
+            font-size: 30px;
+        }
+        .header-description{
+            font-size: 10px;
+        }
+        .header-explore-btn{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 10px;
+            display: flex;
+            justify-content: center;
+            width: 150px;
+        }
+        .feature-card{
+            margin-top: 80px;
+        }
+        .header-description{
+            font-size: 20px;
+        }
+        .follow-us{
+        font-size: 20px;
+        margin-left: 25px;
+        }
+        .media-img{
+        height: 20px;
+        width: 20px;
+        margin-left: 25px;
+        cursor: pointer;
+        display: flex;
+    }
+    .footer{
+        height:100%;
+        width: 500px;
+        background-color: #e67300;
+        display: flex;
+        justify-content: space-around;
+        padding: 40px;
+        margin-bottom: 0;
+    }
+       
+     @media only screen and (min-width:601px) and(max-width:800px) {
+        .navbar-menu-container{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+    }
+}
